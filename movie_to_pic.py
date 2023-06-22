@@ -37,7 +37,7 @@ def save_frame_range_sec(video_path, dir_path, basename,
 start = 0
 end = 90
 step = 2
-save_frame_range_sec('/media/kotetsu/00B8-8628/DCIM/100MEDIA/P1040117.MP4',  #vido path
-					 '/home/kotetsu/デスクトップ/pic',  #save path
+save_frame_range_sec('/media/00B8-8628/DCIM/100MEDIA/P1040117.MP4',  #vido path
+					 '/home/デスクトップ/pic',  #save path
 					 'pic',            #save name
 					 start_sec=start, stop_sec=end, step_sec=step,)     #star stop step
