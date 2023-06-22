@@ -44,8 +44,8 @@ def trimVideo(targetFileName, destFileName, startMillis, stopMillis):
 if __name__ == "__main__":
     ## こういう風に使う
     trimVideo(
-        "/home/kotetsu/デスクトップ/drone_code/common/data/video/video//video_2.MP4",
-        "/home/kotetsu/デスクトップ/drone_code/common/data/video/cut/video_2_40_45.MP4",
-        40*1000,   ## => 3.2秒から
-        45*1000  ## => 12.8秒まで
+        "/home/デスクトップ/drone_code/common/data/video/video//video_2.MP4",
+        "/home/デスクトップ/drone_code/common/data/video/cut/video_2_40_45.MP4",
+        3.2*1000,   ## => 3.2秒から
+        12.8*1000  ## => 12.8秒まで
     )
